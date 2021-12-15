@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 
 
 class Job(models.Model):
-    position_name = models.CharField(max_length=100)
+    position_name = models.CharField(max_length=50)
     text_description = models.TextField()
     min_age = models.IntegerField()
     max_age = models.IntegerField()
